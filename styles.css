@@ -1,0 +1,88 @@
+:root {
+    --darkestBrown: #321E1E;
+    --darkBrown: #8D7B68;
+    --brown: #A4907C;
+    --lightBrown: #C8B6A6;
+    --lightestBrown: #F1DEC9;
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    color: #fff;
+    background-color: var(--darkestBrown);
+}
+
+.container {
+    border-radius: 7px;
+    box-shadow: 0 0 7px var(--darkBrown);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 400px;
+    width: 450px;
+    background-color: var(--lightestBrown);
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    padding: 10px;
+}
+
+.statusContainer {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.status-box {
+    box-shadow: 0 0 5px var(--brown);
+    width: 150px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    color: #fff;
+    background-color: var(--brown);
+    font-weight: bold;
+}
+
+.status-box p {
+    margin-bottom: 0;
+}
+
+.icon {
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: bolder;
+    color: var(--darkestBrown);
+}
+
+.cloudStatus {
+    color: var(--darkestBrown);
+    font-weight: bold;
+}
+
+.status-title {
+    color: var(--darkestBrown);
+    font-weight: lighter;
+}
